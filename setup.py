@@ -8,5 +8,5 @@ setup(
     author_email='',
     description='Implementation of Loess model',
     packages=find_packages(),
-    install_requires=['numpy >= 1.11.1', 'flake8==7.3.0'],
+    install_requires=['numpy >= 1.11.1', 'flake8>=7.3.0'],
 )
