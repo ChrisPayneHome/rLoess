@@ -7,7 +7,7 @@ import numpy as np
 import sys
 import os
 
-from pyloess import Loess
+from rloess import Loess
 
 
 def test_1d_recovers_signal():

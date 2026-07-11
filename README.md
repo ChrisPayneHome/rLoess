@@ -1,4 +1,4 @@
-# Rloess
+# rLoess
 
 A from-scratch Python implementation of **LOESS** (LOcally Estimated
 Scatterplot Smoothing), built to match the behavior of R's built-in
