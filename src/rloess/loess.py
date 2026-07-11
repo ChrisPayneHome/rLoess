@@ -1,5 +1,5 @@
 """
-pyloess.loess
+rloess.loess
 =============
 
 A from-scratch Python implementation of LOESS / LOWESS (LOcally Estimated

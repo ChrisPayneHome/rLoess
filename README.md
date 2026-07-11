@@ -1,4 +1,4 @@
-# pyloess
+# Rloess
 
 A from-scratch Python implementation of **LOESS** (LOcally Estimated
 Scatterplot Smoothing), built to match the behavior of R's built-in
@@ -24,7 +24,7 @@ multivariate predictors.
 
 ```bash
 pip install numpy
-# then just copy the pyloess/ folder into your project, or:
+# then just copy the rloess/ folder into your project, or:
 pip install -e .
 ```
 
@@ -32,7 +32,7 @@ pip install -e .
 
 ```python
 import numpy as np
-from pyloess import Loess
+from rloess import Loess
 
 x = np.linspace(0, 10, 100)
 y = np.sin(x) + np.random.normal(scale=0.2, size=100)
@@ -118,6 +118,6 @@ possible future extension here (e.g. a kd-tree + local blending).
 
 ## Files
 
-- `pyloess/loess.py` — the `Loess` class and `loess()` convenience function
+- `rloess/loess.py` — the `Loess` class and `loess()` convenience function
 - `tests/test_loess.py` — test suite (`python tests/test_loess.py`)
 - `example.py` — runnable example generating a comparison plot

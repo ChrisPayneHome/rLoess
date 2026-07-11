@@ -1,5 +1,5 @@
 """
-pyloess - A Python re-implementation of R's loess() local regression smoother.
+rloess - A Python re-implementation of R's loess() local regression smoother.
 """
 
 from .loess import Loess, loess
