@@ -23,9 +23,7 @@ multivariate predictors.
 ## Install
 
 ```bash
-pip install numpy
-# then just copy the rloess/ folder into your project, or:
-pip install -e .
+pip install rloess
 ```
 
 ## Usage
